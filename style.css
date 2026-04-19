@@ -415,10 +415,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 100px;
-    width: 100%;
-  }
-  .container .img-navbar{
-    width: 100%;
   }
 
   .card-container a {
@@ -537,16 +533,4 @@ body {
   .container-rp .rp .card-rp .list-rp li span {
     font-size: 18px;
   }
-
 }
- @media (max-width: 450px) {
-   html {
-     font-size: 55%;
-   }
-   .card-container .card {
-     width: 100%;
-     height: 100px;
-     display: flex;
-    justify-content: flex-start;
-   }
- }

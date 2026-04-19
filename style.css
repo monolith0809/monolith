@@ -541,4 +541,8 @@ body {
   .card-container{
     width: 100%;
   }
+
+  .card-container .card{
+    width: 100%;
+  }
 }

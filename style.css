@@ -1,0 +1,535 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-image: url(assets/pc.jpg);
+}
+
+.container {
+  padding-bottom: 75px;
+}
+
+.container .img-navbar {
+  width: 100%;
+  height: 200px;
+  background-image: url(assets/bc_nav.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-position-y: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  transform: translateY(75px);
+  border-radius: 100px;
+  box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+.name-brand {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.name-brand h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f1f1f1;
+  font-size: 40px;
+  letter-spacing: 2.5px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+}
+
+.slogan p {
+  font-family: "Red Hat Display", sans-serif;
+  color: #f1f1f1;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+  padding-bottom: 100px;
+  row-gap: 35px;
+}
+
+.card-container .card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 250px;
+  height: 250px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s linear;
+}
+
+.card-container .card:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.card-container .card img {
+  width: 180px;
+  height: 180px;
+}
+
+.card-container .card img .tiktok {
+  width: 180px;
+  height: 180px;
+}
+
+.name-card {
+  display: none;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.footer .container-footer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 45px;
+}
+
+.footer .container-footer a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family:
+    "Red Hat Display",
+    sans serif;
+  color: #f1f1f1;
+  transition: 0.2s ease;
+}
+.footer .container-footer a:hover {
+  color: #a1a1a1;
+}
+
+/* FAQ */
+
+.container-FAQ {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.container-FAQ .row-FAQ {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.container-FAQ .row-FAQ .card-FAQ {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100%px;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.container-FAQ .row-FAQ .card-FAQ h2 {
+  padding-top: 5px;
+  padding-left: 20px;
+  color: #f1f1f1;
+  font-family:
+    "Red Hat Display",
+    sans serif;
+  font-size: 30px;
+}
+
+.container-FAQ .row-FAQ .card-FAQ p {
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #a1a1a1;
+  font-family:
+    "Red Hat Display",
+    sans serif;
+  font-size: 20px;
+}
+
+.container-FAQ .row-FAQ .card-FAQ p a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.container-abt {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.container-abt .row-abt {
+  /* background-color: #1a1a1a; */
+  display: flex;
+  width: 100%;
+  /* box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75); */
+}
+
+.container-abt .row-abt .abt-img {
+  width: 80vw;
+}
+
+.container-abt .row-abt .abt-img img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 0.6;
+  box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+.container-abt .row-abt .abt {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+}
+
+.container-abt .row-abt .abt h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 70px;
+  color: #f1f1f1;
+  letter-spacing: 2.5px;
+}
+
+.container-abt .row-abt .abt p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  color: #a1a1a1;
+}
+
+.container-abt .row-abt .abt h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 30px;
+  color: #f1f1f1;
+}
+
+.container-abt .row-abt .abt h2 span {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2.5px;
+}
+
+.container-abt .row-abt .abt .abt-list {
+  width: 100%;
+  padding-left: 25px;
+}
+
+.container-abt .row-abt .abt .abt-list li {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  color: #a1a1a1;
+  list-style-type: decimal;
+}
+
+.container-abt .row-abt .abt .abt-list li span {
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+/* contact */
+#container-banner {
+  display: inline-block;
+  width: 100%;
+  padding-top: 150px;
+}
+
+#container-banner .img-logo2 {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+#container-banner .img-logo2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.57;
+  box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 6px 9px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* .container-contact .img-logo2 .h1-contact{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
+
+#container-banner .img-logo2 h1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  width: 100%;
+  height: 250px;
+  color: #f1f1f1;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 60px;
+}
+
+.contact {
+  width: 100%;
+  height: 80vh;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contact .contact-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact-content .card-contact h2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #f1f1f1;
+  font-size: 45px;
+  letter-spacing: 2.5px;
+  display: flex;
+  justify-content: center;
+}
+.contact .contact-content .card-contact p {
+  font-family: "Red Hat Display", sans-serif;
+  color: #a1a1a1;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+/* return policy */
+
+.container-rp {
+  width: 100%;
+  height: 100%;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.container-rp .rp {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.container-rp .rp .card-rp {
+  width: 100%;
+}
+
+.container-rp .rp .card-rp h1 {
+  color: #f1f1f1;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2.5px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.container-rp .rp .card-rp p {
+  color: #a1a1a1;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+}
+
+.container-rp .rp .card-rp .list-rp {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 25px;
+  color: #a1a1a1;
+  list-style-type: decimal;
+  padding-left: 30px;
+}
+
+.container-rp .rp .card-rp .list-rp li span {
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.container-rp .rp .card-rp h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 35px;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+/* pc / laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 958px) {
+  html {
+    font-size: 62.5%;
+  }
+  .card-container {
+    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+  }
+
+  .card-container a {
+    text-decoration: none;
+  }
+
+  .card-container .card {
+    border-radius: 20px;
+    height: 100px;
+    width: 390px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .card-container .card img {
+    width: 80px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 30px;
+  }
+
+  .name-card {
+    display: flex;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 5px;
+  }
+
+  /* footer */
+
+  .footer .row-footer {
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .footer .row-footer .container-footer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  .footer .container-footer a {
+    padding: 10px;
+  }
+
+  /* FAQ */
+
+  .container-FAQ .row-FAQ .card-FAQ h2 {
+    font-size: 24px;
+  }
+
+  .container-FAQ .row-FAQ .card-FAQ P {
+    font-size: 16px;
+  }
+
+  /* about */
+  .container-abt .row-abt {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .container-abt .row-abt .abt-img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .container .row-abt .abt-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-abt .row-abt .abt h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+  }
+
+  .container-abt .row-abt .abt p {
+    font-size: 18px;
+  }
+
+  .container-abt .row-abt .abt h2 {
+    font-size: 24px;
+  }
+
+  .container-abt .row-abt .abt .abt-list li {
+    font-size: 18px;
+  }
+
+  /* contact */
+  .contact .contact-content .card-contact h2 {
+    font-size: 35px;
+  }
+  .contact .contact-content .card-contact p {
+    font-size: 20px;
+  }
+
+  /* return police */
+  .container-rp .rp .card-rp p {
+    font-size: 20px;
+  }
+  .container-rp .rp .card-rp h1 {
+    font-size: 36px;
+  }
+  .container-rp .rp .card-rp h2 {
+    font-size: 24px;
+  }
+
+  .container-rp .rp .card-rp .list-rp li {
+    font-size: 18px;
+  }
+  .container-rp .rp .card-rp .list-rp li span {
+    font-size: 18px;
+  }
+}

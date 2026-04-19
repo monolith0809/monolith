@@ -429,7 +429,7 @@ body {
     border-radius: 20px;
     height: 100px;
     width: 100%;
-    display: inline;
+    display: flex;
     justify-content: flex-start;
   }
 
@@ -537,4 +537,16 @@ body {
   .container-rp .rp .card-rp .list-rp li span {
     font-size: 18px;
   }
+
 }
+ @media (max-width: 450px) {
+   html {
+     font-size: 55%;
+   }
+   .card-container{
+     width: 100%;
+   }
+   .card-container .card {
+     font-size: 100%;
+   }
+ }

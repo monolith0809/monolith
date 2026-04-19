@@ -423,7 +423,7 @@ body {
   .card-container .card {
     border-radius: 20px;
     height: 100px;
-    width: 390px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
   }

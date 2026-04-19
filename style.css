@@ -410,12 +410,10 @@ body {
   }
   .card-container {
     display: flex;
-    display: inline-flex;
     flex-wrap: wrap;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 100px;
+    padding: 0 30px 100px 30px;
     width: 100%;
+    box-sizing: border-box;
   }
 
   .card-container a {

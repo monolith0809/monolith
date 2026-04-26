@@ -423,7 +423,7 @@ body {
   .card-container .card {
     border-radius: 20px;
     height: 100px;
-    width: 300px;
+    max-width: 390px;
     display: flex;
     justify-content: flex-start;
   }
@@ -542,6 +542,6 @@ body {
   }
 
   .card-container .card{
-    width: 100%;
+    max-width: 390px;
   }
 }
